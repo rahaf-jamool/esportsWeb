@@ -1,0 +1,89 @@
+@import "custom_variables";
+@import "mixin";
+
+
+
+/*
+	General Style
+	------------------------------------------------
+*/
+* {
+    //font-family: 'angle !important' , sans-serif;
+}
+
+
+
+/*
+	Home Style
+	------------------------------------------------
+*/
+.home-section {
+    .header-images {
+        .header-img { position: relative; }
+        .header-label {
+            position: absolute;
+            left: 35px;
+            bottom: 100px;
+            h2 {
+                width: 45%;
+                letter-spacing: 5px;
+            }
+            .custom-header-button {
+                background: $dark-blue;
+                border: 1px solid $dark-blue;
+                color: #fff;
+                border-radius: 0;
+                line-height: 2;
+                letter-spacing: 4px;
+                @include transition(all, .5s);
+                &:hover {
+                    background: $mid-blue;
+                    border: 1px solid $mid-blue;
+                }
+            }
+        }
+    }
+
+    .wall-art {
+        h2, p { letter-spacing: 3px; }
+        .slide-img { height: 200px; }
+        .box {
+            border-radius: 0;
+            box-shadow: unset;
+        }
+        .detail-box { height: unset; }
+        .view-all {
+            border: 1px solid #999;
+            border-radius: 0;
+        }
+    }
+
+    .home-operate {
+        .number-circle {
+            width: 100px;
+            height: 100px;
+            background: $dark-blue;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+            span {
+                font-size: 3rem;
+                line-height: 110px;
+            }
+        }
+    }
+
+    .make-it-bg-image {
+        .content {
+            position: absolute;
+            width: 35%;
+            left: 5%;
+            top: 25%;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+
+

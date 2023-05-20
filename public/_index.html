@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title> @yield('title')</title>
+    <meta charset=utf-8>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
+    <meta name="author" content="{{ trans('all.site_name') }}">
+
+    <meta property="og:title" content="@yield('og-title')">
+    <meta property="og:description" content="@yield('og-description')">
+    <meta property="og:image" content="@yield('og-image')">
+    <meta property="og:url" content="@yield('og-url')">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="css/bootstrap-social.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="css/theme.en.css"/>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+
+    <script type="text/javascript">
+        var _config = {
+            lang: 'ar',
+            slick_rtl_dir: true,
+        }
+    </script>
+    <script src="js/sliders.js"></script>
+
+</head>
+<body>
+<header class="container-fluid">
+    <div class="row">
+
+
+        <div class="col-4 col-md-3 col-lg-2 header-logo">
+            <a href=""><img src="images/logo.png"> </a>
+        </div>
+
+        <div class="col-8 col-md-9 col-lg-10  header-social">
+            <ul class="social-menu">
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <nav class="navbar col-12 navbar-expand-lg navbar-light  main-navbar  ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Our Clients</a></li>
+                    <li><a href="">Profile</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">العربية</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+</header>
+<section class="content">
+    <section class="main-slider container-fluid ">
+        <div class="slider col-xs-12">
+            <div class="image"><img src="images/1.jpg">
+                <div class="overlay">
+                    <div class="slider-data">
+                        <h1>WAVE FOR ENGINEERING SERVICES</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="image"><img src="images/2.jpg">
+                <div class="overlay">
+                    <div class="slider-data">
+                        <h1>WAVE FOR ENGINEERING SERVICES</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="image"><img src="images/3.jpg">
+                <div class="overlay">
+                    <div class="slider-data">
+                        <h1>WAVE FOR ENGINEERING SERVICES</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slick-nav-slider">
+            <div class="slider-for col-xs-12">
+                <div class="image"><img src="images/1.jpg">
+                    <div class="overlay"></div>
+                </div>
+                <div class="image"><img src="images/2.jpg">
+                    <div class="overlay"></div>
+                </div>
+                <div class="image"><img src="images/3.jpg">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="container-fluid main-section">
+        <div class="row">
+            <div class="container-fluid home-block home-about">
+                <div class="row">
+                    <div class="col-12  home-title">
+                        <h1>About Us</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col about-text">
+                                <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="container-fluid project-block project-about">
+                <div class="row">
+                    <div class="col-12  main-title">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="project-box">
+                                    <div class="project-img">
+                                        <img class="img-responsive" src="images/p1.jpg"/>
+                                        <div class="project-overlay">
+                                            <h1>Project 1</h1>
+                                            <p>text text text text text text text </p>
+                                            <i class="fas fa-chevron-right"> </i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="project-box">
+                                    <div class="project-img">
+                                        <img class="img-responsive" src="images/p1.jpg"/>
+                                        <div class="project-overlay">
+                                            <h1>Project 2</h1>
+                                            <p>text text text text text text text </p>
+                                            <i class="fas fa-chevron-right"> </i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="project-box">
+                                    <div class="project-img">
+                                        <img class="img-responsive" src="images/p1.jpg"/>
+                                        <div class="project-overlay">
+                                            <h1>Project 3</h1>
+                                            <p>text text text text text text text </p>
+                                            <i class="fas fa-chevron-right"> </i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container-fluid service-block service-about">
+                <div class="row">
+                    <div class="col-12  main-title">
+                        <h1>Services</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="service-box col-md-6 col-sm-6 col-12">
+                                <div class="row">
+                                    <div class="col-6 service-img">
+                                        <img class="" src="images/p3.jpg"/>
+                                    </div>
+                                    <div class="col-6 info">
+                                        <h3>Service 3</h3>
+                                        <p>text text text text text text text text text text</p>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="service-box col-md-6 col-sm-6 col-12">
+                                <div class="row">
+                                    <div class="col-6 service-img">
+                                        <img class="" src="images/p3.jpg"/>
+                                    </div>
+                                    <div class="col-6 info">
+                                        <h3>Service 3</h3>
+                                        <p>text text text text text text text text text text</p>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="service-box col-md-6 col-sm-6 col-12">
+                                <div class="row">
+                                    <div class="col-6 service-img">
+                                        <img class="" src="images/p3.jpg"/>
+                                    </div>
+                                    <div class="col-6 info">
+                                        <h3>Service 3</h3>
+                                        <p>text text text text text text text text text text</p>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="service-box col-md-6 col-sm-6 col-12">
+                                <div class="row">
+                                    <div class="col-6 service-img">
+                                        <img class="" src="images/p3.jpg"/>
+                                    </div>
+                                    <div class="col-6 info">
+                                        <h3>Service 3</h3>
+                                        <p>text text text text text text text text text text</p>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="container-fluid product-block product-about">
+                <div class="row">
+                    <div class="col-12  main-title">
+                        <h1>Products</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img class="img-responsive" src="images/pro1.png"/>
+                                    </div>
+                                    <h1>Product 1</h1>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img class="img-responsive" src="images/pro2.png"/>
+
+                                    </div>
+                                    <h1>Product 2</h1>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img class="img-responsive" src="images/pro3.png"/>
+                                    </div>
+                                    <h1>Product 3</h1>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img class="img-responsive" src="images/pro4.png"/>
+                                    </div>
+                                    <h1>Product 4</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container-fluid gv-block gv-about">
+                <div class="row">
+                    <div class="col-12  main-title">
+                        <h1>Photo Gallery & Videos</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="photogallery-box">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="videos-box">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="container-fluid clients-block clients-about">
+                <div class="row">
+                    <div class="col-12  main-title">
+                        <h1>Our Clients</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img class="img-responsive" src="images/ebco.png"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img class="img-responsive" src="images/sia.png"/>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img class="img-responsive" src="images/hesco.png"/>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</section>
+
+<footer class="container-fluid">
+
+    <div class="contact-box row">
+        <div class="col-12">
+            <div class="row">
+                <div class="contact-title">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <h3>Email:</h3><span>info@wave.com</span>
+                    </div>
+
+
+                    <div class="contact-detail">
+                        <h3>Mob:</h3><span>009716958641<br>009716958641</span>
+                    </div>
+
+
+                    <div class="contact-detail">
+                        <h3>Tel:</h3><span>009715533222</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-info row">
+        <div class="col-md-4 col-sm-4 col-12">
+            <div class="row location-box-social">
+                <div class="location-map col-12">
+                    <img class="img-responsive" src="images/location-map.jpg"/>
+                </div>
+                <div class="footer-social col-12">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Our Clients</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">العربية</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+</footer>
+
+
+</body>
+</html>

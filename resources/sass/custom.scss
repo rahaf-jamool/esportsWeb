@@ -1,0 +1,198 @@
+@import "custom_variables";
+@import "mixin";
+
+/*------------General Style Classes------------*/
+* {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.container-fluid {
+    padding-right: 40px;
+    padding-left: 40px;
+    @media (max-width : $xs) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+a {
+    @include transition(all, .5s);
+    &:hover { text-decoration: none; }
+    &.red {
+        color: $red;
+        &:hover {color: $white;}
+    }
+    &.red-button,
+    &.white-button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        @media (min-width : $lg) and (max-width : $xl) {
+            font-size: 1.3rem;
+        }
+        @media (min-width : $md) and (max-width : $lg) {
+            font-size: 1.15rem;
+        }
+        @media (min-width : $sm) and (max-width : $md) {
+            padding: 7px 20px;
+            border-radius: 5px;
+            font-size: .9rem;
+        }
+        @media (max-width : $xs) {
+            padding: 5px 20px;
+            border-radius: 5px;
+            font-size: .8rem;
+        }
+    }
+    &.red-button {
+        color: $white;
+        background: $red;
+        &:hover { background: #d22827; }
+    }
+    &.white-button {
+        color: $red;
+        background: $white;
+        &:hover { color: #d22827; }
+    }
+}
+
+.custom-white {
+    color: $white;
+}
+
+.responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.brief-button {
+    color: $white;
+    background-size: contain !important;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 160px;
+    display: inline-block;
+
+    @media (min-width : $md) and (max-width : $lg) {
+        height: 50px;
+        width: 140px;
+    }
+    @media (min-width : $sm) and (max-width : $md) {
+        height: 45px;
+        width: 120px;
+    }
+    @media (max-width : $md) {
+        height: 45px;
+        width: 110px;
+    }
+}
+
+.scroll-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: $red;
+    color: $white;
+    width: 55px;
+    height: 55px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    cursor: pointer;
+    @include transition(all, .5s);
+    &:hover {  background-color: $dark-gold; }
+    @media (max-width : $xs) {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+h2.h1 {
+    @media (min-width : $sm) and (max-width : $lg) {
+        font-size: 2rem;
+    }
+    @media (max-width : $xs) {
+        font-size: 1.6rem;
+    }
+}
+
+p {
+    @media (min-width : $md) and (max-width : $lg) {
+        font-size: .9rem;
+    }
+    @media (min-width : $sm) and (max-width : $md) {
+        font-size: .8rem;
+    }
+    @media (max-width : $xs) {
+        font-size: .8rem;
+    }
+}
+
+.alert-custom {
+    background-color: $red;
+    border-color: $dark-gold;
+    color: $white;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.breadcrumb {
+    border: 1px solid #aaa;
+    margin-top: 10px;
+    border-top: none;
+    &.bg-transparent {
+        margin-bottom: 3rem;
+        .breadcrumb-item {
+            a { color: $light-grey; }
+            &:hover a { text-decoration: none; color: $red; }
+        }
+    }
+}
+
+.page-item {
+    &.active {
+        .page-link {
+            background-color: $red;
+            border-color: $red;
+        }
+    }
+    .page-link {
+        color: $black;
+    }
+}
+
+/*Start Category header*/
+.page-image-header, .page-header {
+    height: 50vh;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, .32);
+    @media (max-width : $xs) {
+        height: 40vh;
+    }
+    h2 {
+        transform: translateY(30vh);
+        letter-spacing: .3rem;
+        font-size: 3rem;
+
+        @media (min-width: $sm) and (max-width : $md) {
+            transform: translateY(33vh);
+            font-size: 2rem;
+        }
+        @media (max-width : $xs) {
+            transform: translateY(25vh);
+            font-size: 1.5rem;
+        }
+    }
+}
+.page-image-header { background-size: cover !important; }
+.page-header {
+    background: rgb(57,57,57);
+    background: linear-gradient(180deg, rgba(57,57,57,0.9727241238292192) 0%, rgba(179,152,82,1) 61%, rgba(219,188,107,1) 100%);
+}
+/*Start Category header*/
+/*------------General Style Classes------------*/
+
+
+
+
+
+

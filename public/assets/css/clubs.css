@@ -1,0 +1,112 @@
+/* clubs */
+.list-clubs{
+    padding-top: 10%;
+}
+.list-clubs .clubs {
+    padding: 20px 60px;
+  }
+  .list-clubs .clubs h1 {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+  }
+  .list-clubs .clubs .clup-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .list-clubs .clubs .clup-items .item {
+    width: 430px;
+    height: 450px;
+    background: #fff;
+    box-shadow: -19px -17px 15px -7px rgba(115, 105, 105, 0.83);
+    -webkit-box-shadow: -19px -17px 15px -7px rgba(115, 105, 105, 0.83);
+    text-align: center;
+  }
+  .list-clubs .clubs .clup-items .item img {
+    width: 90%;
+    height: 300px;
+    transition: .5s ease-in-out;
+  }
+  .list-clubs .clubs .clup-items .item img:hover{
+    transform: scale(1.2);
+  }
+  .list-clubs .clubs .clup-items .item .button-more {
+    width: 60%;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid rgba(177, 177, 177, 0.0784313725);
+    background-color: rgba(177, 177, 177, 0.0784313725);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .list-clubs .clubs .clup-items .item .button-more:hover {
+    background-color: #000;
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+    @keyframes pulse {
+        0% {
+        transform: scale(1);
+        }
+        70% {
+        transform: scale(.9);
+        }
+        100% {
+        transform: scale(1);
+        }
+    }
+  .list-clubs .clubs .clup-items .item .button-more::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+  .list-clubs .clubs .clup-items .item .button-more img {
+    width: 50px;
+    height: 50px;
+  }
+  .list-clubs .clubs .clup-items .item .button-more button{
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+  }
+  .list-clubs .clubs .clup-items .item .button-more button a{
+    color: red;
+  }
+  @media screen and (max-width: 997px) {
+    .list-clubs .clubs .clup-items .item {
+      width: 80%;
+    }
+  }
+  .club-details {
+    padding-top: 15%;
+    }
+    .club-details .club-card {
+        -webkit-box-shadow: -1px 2px 17px -2px #a3a3a3;
+        box-shadow: -1px 2px 17px -2px #a3a3a3;
+        font-size: 20px;
+        padding: 20px;
+        font-weight: bold;
+    }
+    .club-details .w3-table-all {
+        border: 1px solid #ccc;
+    }
+    .details .w3-table, .w3-table-all {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        display: table;
+    }
+    .club-details .w3-bordered tr, .w3-table-all tr {
+        border-bottom: 1px solid #ddd;
+    }
+    .club-details .w3-bordered tr, .w3-table-all tr td {
+        padding: 10px;
+    }

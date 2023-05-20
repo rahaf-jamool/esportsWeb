@@ -1,0 +1,1692 @@
+{
+    "id": 114,
+    "name": "عمر عبدالله الحسين1",
+    "clientId": 353,
+    "client": {
+      "id": 353,
+      "type": "Player",
+      "name": "عمر عبدالله الحسين1",
+      "state": "string",
+      "requestDeleted": true,
+      "userId": "string",
+      "email": "omaar@gmail.com",
+      "isBlocked": true,
+      "isEventCreator": true,
+      "userName": "string",
+      "password": "string",
+      "confirmPassword": "string"
+    },
+    "personInfoId": 201,
+    "personInfo": {
+      "id": 201,
+      "birthDate": "2023-01-06T15:31:26.042Z",
+      "imagePath": null,
+      "gender": "M",
+      "socialStatus": "Married",
+      "uaeResidency": true,
+      "uaeIdNumber": "string",
+      "uaeIdEndDate": "2023-01-06T15:31:26.042Z",
+      "membershipNumber": "string",
+      "membershipEndDate": "2023-01-06T15:31:26.042Z",
+      "educationLevelName": "string",
+      "educationLevelId": 2,
+      "email": "omaar@gmail.com",
+      "phone": "009711111",
+      "address": "string",
+      "idCardNumber": "string",
+      "nationalityId": 56,
+      "nationalityName": "string",
+      "passportId": 325,
+      "passport": {
+        "id": 325,
+        "number": "58911",
+        "countryId": 1,
+        "countryName": "string",
+        "startDate": "2023-01-06T15:31:26.042Z",
+        "endDate": "2023-01-06T15:31:26.042Z",
+        "imagePath": null,
+      },
+      "princedomId": 0,
+      "princedomName": "string",
+      "facebook": "string",
+      "twitter": "string",
+      "instagram": "string",
+      "discord": "string",
+      "youTube": "string",
+      "tikTok": "string",
+      "twitch": "string"
+    },
+    "clubId": 47,
+    "clubName": "نادي العربي",
+    "academyId": 0,
+    "academyName": "string",
+    "joinDate": "2023-01-06T15:31:26.042Z",
+    "membershipEndDate": "2023-01-06T15:31:26.042Z",
+    "isTeamLeader": true,
+    "isTeamMember": true,
+    "playerPlatforms": [
+      {
+        "playerId": 114,
+        "playerName": "عمر عبدالله الحسين1",
+        "platformId": 8,
+        "platformName": "جهاز الحاسوب"
+      }
+    ],
+    "playerGames": [
+      {
+        "playerId": 114,
+        "playerName": "عمر عبدالله الحسين1",
+        "gameId": 7,
+        "gameName": "street fighter",
+        "team": true
+      }
+    ],
+    "playerNationalTeams": [
+      {
+        "playerId": 0,
+        "playerName": "string",
+        "nationalTeamCategoryId": 0,
+        "nationalTeamCategoryName": "string"
+      }
+    ],
+    "playerEvents": [
+      {
+        "id": 0,
+        "eventId": 0,
+        "eventName": "string",
+        "eventEnName": "string",
+        "eventClassificationId": 0,
+        "eventClassificationName": "string",
+        "eventClassificationEnName": "string",
+        "clientId": 0,
+        "clientName": "string",
+        "clientType": "string",
+        "state": "string",
+        "asTeam": true,
+        "team": {
+          "id": 0,
+          "name": "string",
+          "logoImagePath": "string",
+          "groupImagePath": "string",
+          "teamHeadId": 0,
+          "isActive": true,
+          "teamHeadName": "string",
+          "primaryColor": "string",
+          "secondaryColor": "string",
+          "members": [
+            {
+              "id": 0,
+              "name": "string",
+              "parentId": 0,
+              "stringId": "string"
+            }
+          ],
+          "logoImage": {
+            "id": 0,
+            "data": "string",
+            "fileType": "string",
+            "size": 0,
+            "name": "string",
+            "base64String": "string"
+          },
+          "groupImage": {
+            "id": 0,
+            "data": "string",
+            "fileType": "string",
+            "size": 0,
+            "name": "string",
+            "base64String": "string"
+          },
+          "coachName": "string",
+          "coachId": 0,
+          "clubName": "string",
+          "clubId": 0,
+          "academyName": "string",
+          "academyId": 0,
+          "accepted": true,
+          "invitationCode": "string",
+          "createdAt": "2023-01-06T15:31:26.042Z",
+          "players": [
+            {
+              "id": 0,
+              "name": "string",
+              "clientId": 0,
+              "client": {
+                "id": 0,
+                "type": "string",
+                "name": "string",
+                "state": "string",
+                "requestDeleted": true,
+                "userId": "string",
+                "email": "user@example.com",
+                "isBlocked": true,
+                "isEventCreator": true,
+                "userName": "string",
+                "password": "string",
+                "confirmPassword": "string"
+              },
+              "personInfoId": 0,
+              "personInfo": {
+                "id": 0,
+                "birthDate": "2023-01-06T15:31:26.042Z",
+                "imagePath": "string",
+                "image": {
+                  "id": 0,
+                  "data": "string",
+                  "fileType": "string",
+                  "size": 0,
+                  "name": "string",
+                  "base64String": "string"
+                },
+                "idImagePath": "string",
+                "idImage": {
+                  "id": 0,
+                  "data": "string",
+                  "fileType": "string",
+                  "size": 0,
+                  "name": "string",
+                  "base64String": "string"
+                },
+                "gender": "string",
+                "socialStatus": "string",
+                "uaeResidency": true,
+                "uaeIdNumber": "string",
+                "uaeIdEndDate": "2023-01-06T15:31:26.042Z",
+                "membershipNumber": "string",
+                "membershipEndDate": "2023-01-06T15:31:26.042Z",
+                "educationLevelName": "string",
+                "educationLevelId": 0,
+                "email": "string",
+                "phone": "string",
+                "address": "string",
+                "idCardNumber": "string",
+                "nationalityId": 0,
+                "nationalityName": "string",
+                "passportId": 0,
+                "passport": {
+                  "id": 0,
+                  "number": "string",
+                  "countryId": 0,
+                  "countryName": "string",
+                  "startDate": "2023-01-06T15:31:26.042Z",
+                  "endDate": "2023-01-06T15:31:26.042Z",
+                  "imagePath": "string",
+                  "image": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  }
+                },
+                "princedomId": 0,
+                "princedomName": "string",
+                "facebook": "string",
+                "twitter": "string",
+                "instagram": "string",
+                "discord": "string",
+                "youTube": "string",
+                "tikTok": "string",
+                "twitch": "string"
+              },
+              "clubId": 0,
+              "clubName": "string",
+              "academyId": 0,
+              "academyName": "string",
+              "joinDate": "2023-01-06T15:31:26.042Z",
+              "membershipEndDate": "2023-01-06T15:31:26.042Z",
+              "isTeamLeader": true,
+              "isTeamMember": true,
+              "playerPlatforms": [
+                {
+                  "playerId": 0,
+                  "playerName": "string",
+                  "platformId": 0,
+                  "platformName": "string"
+                }
+              ],
+              "playerGames": [
+                {
+                  "playerId": 0,
+                  "playerName": "string",
+                  "gameId": 0,
+                  "gameName": "string",
+                  "team": true
+                }
+              ],
+              "playerNationalTeams": [
+                {
+                  "playerId": 0,
+                  "playerName": "string",
+                  "nationalTeamCategoryId": 0,
+                  "nationalTeamCategoryName": "string"
+                }
+              ],
+              "playerEvents": [
+                {
+                  "id": 0,
+                  "eventId": 0,
+                  "eventName": "string",
+                  "eventEnName": "string",
+                  "eventClassificationId": 0,
+                  "eventClassificationName": "string",
+                  "eventClassificationEnName": "string",
+                  "clientId": 0,
+                  "clientName": "string",
+                  "clientType": "string",
+                  "state": "string",
+                  "asTeam": true,
+                  "team": {
+                    "id": 0,
+                    "name": "string",
+                    "logoImagePath": "string",
+                    "groupImagePath": "string",
+                    "teamHeadId": 0,
+                    "isActive": true,
+                    "teamHeadName": "string",
+                    "primaryColor": "string",
+                    "secondaryColor": "string",
+                    "members": [
+                      {
+                        "id": 0,
+                        "name": "string",
+                        "parentId": 0,
+                        "stringId": "string"
+                      }
+                    ],
+                    "logoImage": {
+                      "id": 0,
+                      "data": "string",
+                      "fileType": "string",
+                      "size": 0,
+                      "name": "string",
+                      "base64String": "string"
+                    },
+                    "groupImage": {
+                      "id": 0,
+                      "data": "string",
+                      "fileType": "string",
+                      "size": 0,
+                      "name": "string",
+                      "base64String": "string"
+                    },
+                    "coachName": "string",
+                    "coachId": 0,
+                    "clubName": "string",
+                    "clubId": 0,
+                    "academyName": "string",
+                    "academyId": 0,
+                    "accepted": true,
+                    "invitationCode": "string",
+                    "createdAt": "2023-01-06T15:31:26.043Z",
+                    "players": [
+                      "string"
+                    ]
+                  },
+                  "teamId": 0,
+                  "orgClientName": "string",
+                  "orgClientId": 0,
+                  "orgClientType": "string",
+                  "eventPlatformId": 0,
+                  "eventPlatformName": "string",
+                  "platformUID": "string",
+                  "eventGameId": 0,
+                  "eventGameName": "string",
+                  "event": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "enName": "string",
+                    "startDate": "2023-01-06T15:31:26.043Z",
+                    "endDate": "2023-01-06T15:31:26.043Z",
+                    "startTime": {
+                      "ticks": 0
+                    },
+                    "endTime": {
+                      "ticks": 0
+                    },
+                    "registerStartDate": "2023-01-06T15:31:26.043Z",
+                    "registerEndDate": "2023-01-06T15:31:26.043Z",
+                    "enDescription": "string",
+                    "description": "string",
+                    "organizerName": "string",
+                    "enOrganizerName": "string",
+                    "location": "string",
+                    "enLocation": "string",
+                    "eventClassificationId": 0,
+                    "eventClassificationName": "string",
+                    "eventClassificationEnName": "string",
+                    "eventState": "string",
+                    "requestedClient": {
+                      "id": 0,
+                      "type": "string",
+                      "name": "string",
+                      "state": "string",
+                      "requestDeleted": true,
+                      "userId": "string",
+                      "email": "user@example.com",
+                      "isBlocked": true,
+                      "isEventCreator": true,
+                      "userName": "string",
+                      "password": "string",
+                      "confirmPassword": "string"
+                    },
+                    "requestedClientId": 0,
+                    "requestDeleted": true,
+                    "mainImagePath": "string",
+                    "participationType": "string",
+                    "createdAt": "2023-01-06T15:31:26.043Z",
+                    "mainImage": {
+                      "id": 0,
+                      "data": "string",
+                      "fileType": "string",
+                      "size": 0,
+                      "name": "string",
+                      "base64String": "string"
+                    },
+                    "isActive": true,
+                    "eventPlatforms": [
+                      {
+                        "id": 0,
+                        "eventId": 0,
+                        "eventName": "string",
+                        "platformId": 0,
+                        "platformName": "string"
+                      }
+                    ],
+                    "eventGames": [
+                      {
+                        "id": 0,
+                        "eventId": 0,
+                        "eventName": "string",
+                        "gameId": 0,
+                        "gameName": "string",
+                        "team": true
+                      }
+                    ],
+                    "eventFAQs": [
+                      {
+                        "id": 0,
+                        "eventId": 0,
+                        "eventName": "string",
+                        "question": "string",
+                        "enQuestion": "string",
+                        "answer": "string",
+                        "enAnswer": "string",
+                        "isActive": true
+                      }
+                    ],
+                    "eventFees": [
+                      {
+                        "id": 0,
+                        "eventId": 0,
+                        "eventName": "string",
+                        "category": "string",
+                        "enCategory": "string",
+                        "feeValue": "string",
+                        "enFeeValue": "string",
+                        "isActive": true
+                      }
+                    ],
+                    "eventClients": [
+                      "string"
+                    ],
+                    "attachments": [
+                      {
+                        "id": 0,
+                        "name": "string",
+                        "entityName": "string",
+                        "entityId": 0,
+                        "type": "string",
+                        "isImage": true,
+                        "size": 0,
+                        "path": "string",
+                        "fileData": {
+                          "id": 0,
+                          "data": "string",
+                          "fileType": "string",
+                          "size": 0,
+                          "name": "string",
+                          "base64String": "string"
+                        }
+                      }
+                    ]
+                  },
+                  "date": "2023-01-06T15:31:26.043Z",
+                  "playerIds": [
+                    0
+                  ],
+                  "players": [
+                    "string"
+                  ],
+                  "orgTeamIds": [
+                    0
+                  ],
+                  "orgTeams": [
+                    {
+                      "id": 0,
+                      "name": "string",
+                      "logoImagePath": "string",
+                      "groupImagePath": "string",
+                      "teamHeadId": 0,
+                      "isActive": true,
+                      "teamHeadName": "string",
+                      "primaryColor": "string",
+                      "secondaryColor": "string",
+                      "members": [
+                        {
+                          "id": 0,
+                          "name": "string",
+                          "parentId": 0,
+                          "stringId": "string"
+                        }
+                      ],
+                      "logoImage": {
+                        "id": 0,
+                        "data": "string",
+                        "fileType": "string",
+                        "size": 0,
+                        "name": "string",
+                        "base64String": "string"
+                      },
+                      "groupImage": {
+                        "id": 0,
+                        "data": "string",
+                        "fileType": "string",
+                        "size": 0,
+                        "name": "string",
+                        "base64String": "string"
+                      },
+                      "coachName": "string",
+                      "coachId": 0,
+                      "clubName": "string",
+                      "clubId": 0,
+                      "academyName": "string",
+                      "academyId": 0,
+                      "accepted": true,
+                      "invitationCode": "string",
+                      "createdAt": "2023-01-06T15:31:26.043Z",
+                      "players": [
+                        "string"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "teamId": 0,
+        "orgClientName": "string",
+        "orgClientId": 0,
+        "orgClientType": "string",
+        "eventPlatformId": 0,
+        "eventPlatformName": "string",
+        "platformUID": "string",
+        "eventGameId": 0,
+        "eventGameName": "string",
+        "event": {
+          "id": 0,
+          "name": "string",
+          "code": "string",
+          "enName": "string",
+          "startDate": "2023-01-06T15:31:26.043Z",
+          "endDate": "2023-01-06T15:31:26.043Z",
+          "startTime": {
+            "ticks": 0
+          },
+          "endTime": {
+            "ticks": 0
+          },
+          "registerStartDate": "2023-01-06T15:31:26.043Z",
+          "registerEndDate": "2023-01-06T15:31:26.043Z",
+          "enDescription": "string",
+          "description": "string",
+          "organizerName": "string",
+          "enOrganizerName": "string",
+          "location": "string",
+          "enLocation": "string",
+          "eventClassificationId": 0,
+          "eventClassificationName": "string",
+          "eventClassificationEnName": "string",
+          "eventState": "string",
+          "requestedClient": {
+            "id": 0,
+            "type": "string",
+            "name": "string",
+            "state": "string",
+            "requestDeleted": true,
+            "userId": "string",
+            "email": "user@example.com",
+            "isBlocked": true,
+            "isEventCreator": true,
+            "userName": "string",
+            "password": "string",
+            "confirmPassword": "string"
+          },
+          "requestedClientId": 0,
+          "requestDeleted": true,
+          "mainImagePath": "string",
+          "participationType": "string",
+          "createdAt": "2023-01-06T15:31:26.043Z",
+          "mainImage": {
+            "id": 0,
+            "data": "string",
+            "fileType": "string",
+            "size": 0,
+            "name": "string",
+            "base64String": "string"
+          },
+          "isActive": true,
+          "eventPlatforms": [
+            {
+              "id": 0,
+              "eventId": 0,
+              "eventName": "string",
+              "platformId": 0,
+              "platformName": "string"
+            }
+          ],
+          "eventGames": [
+            {
+              "id": 0,
+              "eventId": 0,
+              "eventName": "string",
+              "gameId": 0,
+              "gameName": "string",
+              "team": true
+            }
+          ],
+          "eventFAQs": [
+            {
+              "id": 0,
+              "eventId": 0,
+              "eventName": "string",
+              "question": "string",
+              "enQuestion": "string",
+              "answer": "string",
+              "enAnswer": "string",
+              "isActive": true
+            }
+          ],
+          "eventFees": [
+            {
+              "id": 0,
+              "eventId": 0,
+              "eventName": "string",
+              "category": "string",
+              "enCategory": "string",
+              "feeValue": "string",
+              "enFeeValue": "string",
+              "isActive": true
+            }
+          ],
+          "eventClients": [
+            {
+              "id": 0,
+              "eventId": 0,
+              "eventName": "string",
+              "eventEnName": "string",
+              "eventClassificationId": 0,
+              "eventClassificationName": "string",
+              "eventClassificationEnName": "string",
+              "clientId": 0,
+              "clientName": "string",
+              "clientType": "string",
+              "state": "string",
+              "asTeam": true,
+              "team": {
+                "id": 0,
+                "name": "string",
+                "logoImagePath": "string",
+                "groupImagePath": "string",
+                "teamHeadId": 0,
+                "isActive": true,
+                "teamHeadName": "string",
+                "primaryColor": "string",
+                "secondaryColor": "string",
+                "members": [
+                  {
+                    "id": 0,
+                    "name": "string",
+                    "parentId": 0,
+                    "stringId": "string"
+                  }
+                ],
+                "logoImage": {
+                  "id": 0,
+                  "data": "string",
+                  "fileType": "string",
+                  "size": 0,
+                  "name": "string",
+                  "base64String": "string"
+                },
+                "groupImage": {
+                  "id": 0,
+                  "data": "string",
+                  "fileType": "string",
+                  "size": 0,
+                  "name": "string",
+                  "base64String": "string"
+                },
+                "coachName": "string",
+                "coachId": 0,
+                "clubName": "string",
+                "clubId": 0,
+                "academyName": "string",
+                "academyId": 0,
+                "accepted": true,
+                "invitationCode": "string",
+                "createdAt": "2023-01-06T15:31:26.043Z",
+                "players": [
+                  "string"
+                ]
+              },
+              "teamId": 0,
+              "orgClientName": "string",
+              "orgClientId": 0,
+              "orgClientType": "string",
+              "eventPlatformId": 0,
+              "eventPlatformName": "string",
+              "platformUID": "string",
+              "eventGameId": 0,
+              "eventGameName": "string",
+              "event": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "enName": "string",
+                "startDate": "2023-01-06T15:31:26.043Z",
+                "endDate": "2023-01-06T15:31:26.043Z",
+                "startTime": {
+                  "ticks": 0
+                },
+                "endTime": {
+                  "ticks": 0
+                },
+                "registerStartDate": "2023-01-06T15:31:26.043Z",
+                "registerEndDate": "2023-01-06T15:31:26.043Z",
+                "enDescription": "string",
+                "description": "string",
+                "organizerName": "string",
+                "enOrganizerName": "string",
+                "location": "string",
+                "enLocation": "string",
+                "eventClassificationId": 0,
+                "eventClassificationName": "string",
+                "eventClassificationEnName": "string",
+                "eventState": "string",
+                "requestedClient": {
+                  "id": 0,
+                  "type": "string",
+                  "name": "string",
+                  "state": "string",
+                  "requestDeleted": true,
+                  "userId": "string",
+                  "email": "user@example.com",
+                  "isBlocked": true,
+                  "isEventCreator": true,
+                  "userName": "string",
+                  "password": "string",
+                  "confirmPassword": "string"
+                },
+                "requestedClientId": 0,
+                "requestDeleted": true,
+                "mainImagePath": "string",
+                "participationType": "string",
+                "createdAt": "2023-01-06T15:31:26.043Z",
+                "mainImage": {
+                  "id": 0,
+                  "data": "string",
+                  "fileType": "string",
+                  "size": 0,
+                  "name": "string",
+                  "base64String": "string"
+                },
+                "isActive": true,
+                "eventPlatforms": [
+                  {
+                    "id": 0,
+                    "eventId": 0,
+                    "eventName": "string",
+                    "platformId": 0,
+                    "platformName": "string"
+                  }
+                ],
+                "eventGames": [
+                  {
+                    "id": 0,
+                    "eventId": 0,
+                    "eventName": "string",
+                    "gameId": 0,
+                    "gameName": "string",
+                    "team": true
+                  }
+                ],
+                "eventFAQs": [
+                  {
+                    "id": 0,
+                    "eventId": 0,
+                    "eventName": "string",
+                    "question": "string",
+                    "enQuestion": "string",
+                    "answer": "string",
+                    "enAnswer": "string",
+                    "isActive": true
+                  }
+                ],
+                "eventFees": [
+                  {
+                    "id": 0,
+                    "eventId": 0,
+                    "eventName": "string",
+                    "category": "string",
+                    "enCategory": "string",
+                    "feeValue": "string",
+                    "enFeeValue": "string",
+                    "isActive": true
+                  }
+                ],
+                "eventClients": [
+                  "string"
+                ],
+                "attachments": [
+                  {
+                    "id": 0,
+                    "name": "string",
+                    "entityName": "string",
+                    "entityId": 0,
+                    "type": "string",
+                    "isImage": true,
+                    "size": 0,
+                    "path": "string",
+                    "fileData": {
+                      "id": 0,
+                      "data": "string",
+                      "fileType": "string",
+                      "size": 0,
+                      "name": "string",
+                      "base64String": "string"
+                    }
+                  }
+                ]
+              },
+              "date": "2023-01-06T15:31:26.043Z",
+              "playerIds": [
+                0
+              ],
+              "players": [
+                "string"
+              ],
+              "orgTeamIds": [
+                0
+              ],
+              "orgTeams": [
+                {
+                  "id": 0,
+                  "name": "string",
+                  "logoImagePath": "string",
+                  "groupImagePath": "string",
+                  "teamHeadId": 0,
+                  "isActive": true,
+                  "teamHeadName": "string",
+                  "primaryColor": "string",
+                  "secondaryColor": "string",
+                  "members": [
+                    {
+                      "id": 0,
+                      "name": "string",
+                      "parentId": 0,
+                      "stringId": "string"
+                    }
+                  ],
+                  "logoImage": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  },
+                  "groupImage": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  },
+                  "coachName": "string",
+                  "coachId": 0,
+                  "clubName": "string",
+                  "clubId": 0,
+                  "academyName": "string",
+                  "academyId": 0,
+                  "accepted": true,
+                  "invitationCode": "string",
+                  "createdAt": "2023-01-06T15:31:26.043Z",
+                  "players": [
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ],
+          "attachments": [
+            {
+              "id": 0,
+              "name": "string",
+              "entityName": "string",
+              "entityId": 0,
+              "type": "string",
+              "isImage": true,
+              "size": 0,
+              "path": "string",
+              "fileData": {
+                "id": 0,
+                "data": "string",
+                "fileType": "string",
+                "size": 0,
+                "name": "string",
+                "base64String": "string"
+              }
+            }
+          ]
+        },
+        "date": "2023-01-06T15:31:26.043Z",
+        "playerIds": [
+          0
+        ],
+        "players": [
+          {
+            "id": 0,
+            "name": "string",
+            "clientId": 0,
+            "client": {
+              "id": 0,
+              "type": "string",
+              "name": "string",
+              "state": "string",
+              "requestDeleted": true,
+              "userId": "string",
+              "email": "user@example.com",
+              "isBlocked": true,
+              "isEventCreator": true,
+              "userName": "string",
+              "password": "string",
+              "confirmPassword": "string"
+            },
+            "personInfoId": 0,
+            "personInfo": {
+              "id": 0,
+              "birthDate": "2023-01-06T15:31:26.043Z",
+              "imagePath": "string",
+              "image": {
+                "id": 0,
+                "data": "string",
+                "fileType": "string",
+                "size": 0,
+                "name": "string",
+                "base64String": "string"
+              },
+              "idImagePath": "string",
+              "idImage": {
+                "id": 0,
+                "data": "string",
+                "fileType": "string",
+                "size": 0,
+                "name": "string",
+                "base64String": "string"
+              },
+              "gender": "string",
+              "socialStatus": "string",
+              "uaeResidency": true,
+              "uaeIdNumber": "string",
+              "uaeIdEndDate": "2023-01-06T15:31:26.043Z",
+              "membershipNumber": "string",
+              "membershipEndDate": "2023-01-06T15:31:26.043Z",
+              "educationLevelName": "string",
+              "educationLevelId": 0,
+              "email": "string",
+              "phone": "string",
+              "address": "string",
+              "idCardNumber": "string",
+              "nationalityId": 0,
+              "nationalityName": "string",
+              "passportId": 0,
+              "passport": {
+                "id": 0,
+                "number": "string",
+                "countryId": 0,
+                "countryName": "string",
+                "startDate": "2023-01-06T15:31:26.044Z",
+                "endDate": "2023-01-06T15:31:26.044Z",
+                "imagePath": "string",
+                "image": {
+                  "id": 0,
+                  "data": "string",
+                  "fileType": "string",
+                  "size": 0,
+                  "name": "string",
+                  "base64String": "string"
+                }
+              },
+              "princedomId": 0,
+              "princedomName": "string",
+              "facebook": "string",
+              "twitter": "string",
+              "instagram": "string",
+              "discord": "string",
+              "youTube": "string",
+              "tikTok": "string",
+              "twitch": "string"
+            },
+            "clubId": 0,
+            "clubName": "string",
+            "academyId": 0,
+            "academyName": "string",
+            "joinDate": "2023-01-06T15:31:26.044Z",
+            "membershipEndDate": "2023-01-06T15:31:26.044Z",
+            "isTeamLeader": true,
+            "isTeamMember": true,
+            "playerPlatforms": [
+              {
+                "playerId": 0,
+                "playerName": "string",
+                "platformId": 0,
+                "platformName": "string"
+              }
+            ],
+            "playerGames": [
+              {
+                "playerId": 0,
+                "playerName": "string",
+                "gameId": 0,
+                "gameName": "string",
+                "team": true
+              }
+            ],
+            "playerNationalTeams": [
+              {
+                "playerId": 0,
+                "playerName": "string",
+                "nationalTeamCategoryId": 0,
+                "nationalTeamCategoryName": "string"
+              }
+            ],
+            "playerEvents": [
+              {
+                "id": 0,
+                "eventId": 0,
+                "eventName": "string",
+                "eventEnName": "string",
+                "eventClassificationId": 0,
+                "eventClassificationName": "string",
+                "eventClassificationEnName": "string",
+                "clientId": 0,
+                "clientName": "string",
+                "clientType": "string",
+                "state": "string",
+                "asTeam": true,
+                "team": {
+                  "id": 0,
+                  "name": "string",
+                  "logoImagePath": "string",
+                  "groupImagePath": "string",
+                  "teamHeadId": 0,
+                  "isActive": true,
+                  "teamHeadName": "string",
+                  "primaryColor": "string",
+                  "secondaryColor": "string",
+                  "members": [
+                    {
+                      "id": 0,
+                      "name": "string",
+                      "parentId": 0,
+                      "stringId": "string"
+                    }
+                  ],
+                  "logoImage": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  },
+                  "groupImage": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  },
+                  "coachName": "string",
+                  "coachId": 0,
+                  "clubName": "string",
+                  "clubId": 0,
+                  "academyName": "string",
+                  "academyId": 0,
+                  "accepted": true,
+                  "invitationCode": "string",
+                  "createdAt": "2023-01-06T15:31:26.044Z",
+                  "players": [
+                    "string"
+                  ]
+                },
+                "teamId": 0,
+                "orgClientName": "string",
+                "orgClientId": 0,
+                "orgClientType": "string",
+                "eventPlatformId": 0,
+                "eventPlatformName": "string",
+                "platformUID": "string",
+                "eventGameId": 0,
+                "eventGameName": "string",
+                "event": {
+                  "id": 0,
+                  "name": "string",
+                  "code": "string",
+                  "enName": "string",
+                  "startDate": "2023-01-06T15:31:26.044Z",
+                  "endDate": "2023-01-06T15:31:26.044Z",
+                  "startTime": {
+                    "ticks": 0
+                  },
+                  "endTime": {
+                    "ticks": 0
+                  },
+                  "registerStartDate": "2023-01-06T15:31:26.044Z",
+                  "registerEndDate": "2023-01-06T15:31:26.044Z",
+                  "enDescription": "string",
+                  "description": "string",
+                  "organizerName": "string",
+                  "enOrganizerName": "string",
+                  "location": "string",
+                  "enLocation": "string",
+                  "eventClassificationId": 0,
+                  "eventClassificationName": "string",
+                  "eventClassificationEnName": "string",
+                  "eventState": "string",
+                  "requestedClient": {
+                    "id": 0,
+                    "type": "string",
+                    "name": "string",
+                    "state": "string",
+                    "requestDeleted": true,
+                    "userId": "string",
+                    "email": "user@example.com",
+                    "isBlocked": true,
+                    "isEventCreator": true,
+                    "userName": "string",
+                    "password": "string",
+                    "confirmPassword": "string"
+                  },
+                  "requestedClientId": 0,
+                  "requestDeleted": true,
+                  "mainImagePath": "string",
+                  "participationType": "string",
+                  "createdAt": "2023-01-06T15:31:26.044Z",
+                  "mainImage": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  },
+                  "isActive": true,
+                  "eventPlatforms": [
+                    {
+                      "id": 0,
+                      "eventId": 0,
+                      "eventName": "string",
+                      "platformId": 0,
+                      "platformName": "string"
+                    }
+                  ],
+                  "eventGames": [
+                    {
+                      "id": 0,
+                      "eventId": 0,
+                      "eventName": "string",
+                      "gameId": 0,
+                      "gameName": "string",
+                      "team": true
+                    }
+                  ],
+                  "eventFAQs": [
+                    {
+                      "id": 0,
+                      "eventId": 0,
+                      "eventName": "string",
+                      "question": "string",
+                      "enQuestion": "string",
+                      "answer": "string",
+                      "enAnswer": "string",
+                      "isActive": true
+                    }
+                  ],
+                  "eventFees": [
+                    {
+                      "id": 0,
+                      "eventId": 0,
+                      "eventName": "string",
+                      "category": "string",
+                      "enCategory": "string",
+                      "feeValue": "string",
+                      "enFeeValue": "string",
+                      "isActive": true
+                    }
+                  ],
+                  "eventClients": [
+                    "string"
+                  ],
+                  "attachments": [
+                    {
+                      "id": 0,
+                      "name": "string",
+                      "entityName": "string",
+                      "entityId": 0,
+                      "type": "string",
+                      "isImage": true,
+                      "size": 0,
+                      "path": "string",
+                      "fileData": {
+                        "id": 0,
+                        "data": "string",
+                        "fileType": "string",
+                        "size": 0,
+                        "name": "string",
+                        "base64String": "string"
+                      }
+                    }
+                  ]
+                },
+                "date": "2023-01-06T15:31:26.044Z",
+                "playerIds": [
+                  0
+                ],
+                "players": [
+                  "string"
+                ],
+                "orgTeamIds": [
+                  0
+                ],
+                "orgTeams": [
+                  {
+                    "id": 0,
+                    "name": "string",
+                    "logoImagePath": "string",
+                    "groupImagePath": "string",
+                    "teamHeadId": 0,
+                    "isActive": true,
+                    "teamHeadName": "string",
+                    "primaryColor": "string",
+                    "secondaryColor": "string",
+                    "members": [
+                      {
+                        "id": 0,
+                        "name": "string",
+                        "parentId": 0,
+                        "stringId": "string"
+                      }
+                    ],
+                    "logoImage": {
+                      "id": 0,
+                      "data": "string",
+                      "fileType": "string",
+                      "size": 0,
+                      "name": "string",
+                      "base64String": "string"
+                    },
+                    "groupImage": {
+                      "id": 0,
+                      "data": "string",
+                      "fileType": "string",
+                      "size": 0,
+                      "name": "string",
+                      "base64String": "string"
+                    },
+                    "coachName": "string",
+                    "coachId": 0,
+                    "clubName": "string",
+                    "clubId": 0,
+                    "academyName": "string",
+                    "academyId": 0,
+                    "accepted": true,
+                    "invitationCode": "string",
+                    "createdAt": "2023-01-06T15:31:26.044Z",
+                    "players": [
+                      "string"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "orgTeamIds": [
+          0
+        ],
+        "orgTeams": [
+          {
+            "id": 0,
+            "name": "string",
+            "logoImagePath": "string",
+            "groupImagePath": "string",
+            "teamHeadId": 0,
+            "isActive": true,
+            "teamHeadName": "string",
+            "primaryColor": "string",
+            "secondaryColor": "string",
+            "members": [
+              {
+                "id": 0,
+                "name": "string",
+                "parentId": 0,
+                "stringId": "string"
+              }
+            ],
+            "logoImage": {
+              "id": 0,
+              "data": "string",
+              "fileType": "string",
+              "size": 0,
+              "name": "string",
+              "base64String": "string"
+            },
+            "groupImage": {
+              "id": 0,
+              "data": "string",
+              "fileType": "string",
+              "size": 0,
+              "name": "string",
+              "base64String": "string"
+            },
+            "coachName": "string",
+            "coachId": 0,
+            "clubName": "string",
+            "clubId": 0,
+            "academyName": "string",
+            "academyId": 0,
+            "accepted": true,
+            "invitationCode": "string",
+            "createdAt": "2023-01-06T15:31:26.044Z",
+            "players": [
+              {
+                "id": 0,
+                "name": "string",
+                "clientId": 0,
+                "client": {
+                  "id": 0,
+                  "type": "string",
+                  "name": "string",
+                  "state": "string",
+                  "requestDeleted": true,
+                  "userId": "string",
+                  "email": "user@example.com",
+                  "isBlocked": true,
+                  "isEventCreator": true,
+                  "userName": "string",
+                  "password": "string",
+                  "confirmPassword": "string"
+                },
+                "personInfoId": 0,
+                "personInfo": {
+                  "id": 0,
+                  "birthDate": "2023-01-06T15:31:26.044Z",
+                  "imagePath": "string",
+                  "image": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  },
+                  "idImagePath": "string",
+                  "idImage": {
+                    "id": 0,
+                    "data": "string",
+                    "fileType": "string",
+                    "size": 0,
+                    "name": "string",
+                    "base64String": "string"
+                  },
+                  "gender": "string",
+                  "socialStatus": "string",
+                  "uaeResidency": true,
+                  "uaeIdNumber": "string",
+                  "uaeIdEndDate": "2023-01-06T15:31:26.044Z",
+                  "membershipNumber": "string",
+                  "membershipEndDate": "2023-01-06T15:31:26.044Z",
+                  "educationLevelName": "string",
+                  "educationLevelId": 0,
+                  "email": "string",
+                  "phone": "string",
+                  "address": "string",
+                  "idCardNumber": "string",
+                  "nationalityId": 0,
+                  "nationalityName": "string",
+                  "passportId": 0,
+                  "passport": {
+                    "id": 0,
+                    "number": "string",
+                    "countryId": 0,
+                    "countryName": "string",
+                    "startDate": "2023-01-06T15:31:26.044Z",
+                    "endDate": "2023-01-06T15:31:26.044Z",
+                    "imagePath": "string",
+                    "image": {
+                      "id": 0,
+                      "data": "string",
+                      "fileType": "string",
+                      "size": 0,
+                      "name": "string",
+                      "base64String": "string"
+                    }
+                  },
+                  "princedomId": 0,
+                  "princedomName": "string",
+                  "facebook": "string",
+                  "twitter": "string",
+                  "instagram": "string",
+                  "discord": "string",
+                  "youTube": "string",
+                  "tikTok": "string",
+                  "twitch": "string"
+                },
+                "clubId": 0,
+                "clubName": "string",
+                "academyId": 0,
+                "academyName": "string",
+                "joinDate": "2023-01-06T15:31:26.044Z",
+                "membershipEndDate": "2023-01-06T15:31:26.044Z",
+                "isTeamLeader": true,
+                "isTeamMember": true,
+                "playerPlatforms": [
+                  {
+                    "playerId": 0,
+                    "playerName": "string",
+                    "platformId": 0,
+                    "platformName": "string"
+                  }
+                ],
+                "playerGames": [
+                  {
+                    "playerId": 0,
+                    "playerName": "string",
+                    "gameId": 0,
+                    "gameName": "string",
+                    "team": true
+                  }
+                ],
+                "playerNationalTeams": [
+                  {
+                    "playerId": 0,
+                    "playerName": "string",
+                    "nationalTeamCategoryId": 0,
+                    "nationalTeamCategoryName": "string"
+                  }
+                ],
+                "playerEvents": [
+                  {
+                    "id": 0,
+                    "eventId": 0,
+                    "eventName": "string",
+                    "eventEnName": "string",
+                    "eventClassificationId": 0,
+                    "eventClassificationName": "string",
+                    "eventClassificationEnName": "string",
+                    "clientId": 0,
+                    "clientName": "string",
+                    "clientType": "string",
+                    "state": "string",
+                    "asTeam": true,
+                    "team": {
+                      "id": 0,
+                      "name": "string",
+                      "logoImagePath": "string",
+                      "groupImagePath": "string",
+                      "teamHeadId": 0,
+                      "isActive": true,
+                      "teamHeadName": "string",
+                      "primaryColor": "string",
+                      "secondaryColor": "string",
+                      "members": [
+                        {
+                          "id": 0,
+                          "name": "string",
+                          "parentId": 0,
+                          "stringId": "string"
+                        }
+                      ],
+                      "logoImage": {
+                        "id": 0,
+                        "data": "string",
+                        "fileType": "string",
+                        "size": 0,
+                        "name": "string",
+                        "base64String": "string"
+                      },
+                      "groupImage": {
+                        "id": 0,
+                        "data": "string",
+                        "fileType": "string",
+                        "size": 0,
+                        "name": "string",
+                        "base64String": "string"
+                      },
+                      "coachName": "string",
+                      "coachId": 0,
+                      "clubName": "string",
+                      "clubId": 0,
+                      "academyName": "string",
+                      "academyId": 0,
+                      "accepted": true,
+                      "invitationCode": "string",
+                      "createdAt": "2023-01-06T15:31:26.044Z",
+                      "players": [
+                        "string"
+                      ]
+                    },
+                    "teamId": 0,
+                    "orgClientName": "string",
+                    "orgClientId": 0,
+                    "orgClientType": "string",
+                    "eventPlatformId": 0,
+                    "eventPlatformName": "string",
+                    "platformUID": "string",
+                    "eventGameId": 0,
+                    "eventGameName": "string",
+                    "event": {
+                      "id": 0,
+                      "name": "string",
+                      "code": "string",
+                      "enName": "string",
+                      "startDate": "2023-01-06T15:31:26.044Z",
+                      "endDate": "2023-01-06T15:31:26.044Z",
+                      "startTime": {
+                        "ticks": 0
+                      },
+                      "endTime": {
+                        "ticks": 0
+                      },
+                      "registerStartDate": "2023-01-06T15:31:26.044Z",
+                      "registerEndDate": "2023-01-06T15:31:26.044Z",
+                      "enDescription": "string",
+                      "description": "string",
+                      "organizerName": "string",
+                      "enOrganizerName": "string",
+                      "location": "string",
+                      "enLocation": "string",
+                      "eventClassificationId": 0,
+                      "eventClassificationName": "string",
+                      "eventClassificationEnName": "string",
+                      "eventState": "string",
+                      "requestedClient": {
+                        "id": 0,
+                        "type": "string",
+                        "name": "string",
+                        "state": "string",
+                        "requestDeleted": true,
+                        "userId": "string",
+                        "email": "user@example.com",
+                        "isBlocked": true,
+                        "isEventCreator": true,
+                        "userName": "string",
+                        "password": "string",
+                        "confirmPassword": "string"
+                      },
+                      "requestedClientId": 0,
+                      "requestDeleted": true,
+                      "mainImagePath": "string",
+                      "participationType": "string",
+                      "createdAt": "2023-01-06T15:31:26.045Z",
+                      "mainImage": {
+                        "id": 0,
+                        "data": "string",
+                        "fileType": "string",
+                        "size": 0,
+                        "name": "string",
+                        "base64String": "string"
+                      },
+                      "isActive": true,
+                      "eventPlatforms": [
+                        {
+                          "id": 0,
+                          "eventId": 0,
+                          "eventName": "string",
+                          "platformId": 0,
+                          "platformName": "string"
+                        }
+                      ],
+                      "eventGames": [
+                        {
+                          "id": 0,
+                          "eventId": 0,
+                          "eventName": "string",
+                          "gameId": 0,
+                          "gameName": "string",
+                          "team": true
+                        }
+                      ],
+                      "eventFAQs": [
+                        {
+                          "id": 0,
+                          "eventId": 0,
+                          "eventName": "string",
+                          "question": "string",
+                          "enQuestion": "string",
+                          "answer": "string",
+                          "enAnswer": "string",
+                          "isActive": true
+                        }
+                      ],
+                      "eventFees": [
+                        {
+                          "id": 0,
+                          "eventId": 0,
+                          "eventName": "string",
+                          "category": "string",
+                          "enCategory": "string",
+                          "feeValue": "string",
+                          "enFeeValue": "string",
+                          "isActive": true
+                        }
+                      ],
+                      "eventClients": [
+                        "string"
+                      ],
+                      "attachments": [
+                        {
+                          "id": 0,
+                          "name": "string",
+                          "entityName": "string",
+                          "entityId": 0,
+                          "type": "string",
+                          "isImage": true,
+                          "size": 0,
+                          "path": "string",
+                          "fileData": {
+                            "id": 0,
+                            "data": "string",
+                            "fileType": "string",
+                            "size": 0,
+                            "name": "string",
+                            "base64String": "string"
+                          }
+                        }
+                      ]
+                    },
+                    "date": "2023-01-06T15:31:26.045Z",
+                    "playerIds": [
+                      0
+                    ],
+                    "players": [
+                      "string"
+                    ],
+                    "orgTeamIds": [
+                      0
+                    ],
+                    "orgTeams": [
+                      {
+                        "id": 0,
+                        "name": "string",
+                        "logoImagePath": "string",
+                        "groupImagePath": "string",
+                        "teamHeadId": 0,
+                        "isActive": true,
+                        "teamHeadName": "string",
+                        "primaryColor": "string",
+                        "secondaryColor": "string",
+                        "members": [
+                          {
+                            "id": 0,
+                            "name": "string",
+                            "parentId": 0,
+                            "stringId": "string"
+                          }
+                        ],
+                        "logoImage": {
+                          "id": 0,
+                          "data": "string",
+                          "fileType": "string",
+                          "size": 0,
+                          "name": "string",
+                          "base64String": "string"
+                        },
+                        "groupImage": {
+                          "id": 0,
+                          "data": "string",
+                          "fileType": "string",
+                          "size": 0,
+                          "name": "string",
+                          "base64String": "string"
+                        },
+                        "coachName": "string",
+                        "coachId": 0,
+                        "clubName": "string",
+                        "clubId": 0,
+                        "academyName": "string",
+                        "academyId": 0,
+                        "accepted": true,
+                        "invitationCode": "string",
+                        "createdAt": "2023-01-06T15:31:26.045Z",
+                        "players": [
+                          "string"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

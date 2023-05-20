@@ -1,0 +1,66 @@
+{
+    "id": 26,
+    "name": "778Venomy",
+    "clientId": 136,
+    "client": {
+        "id": 136,
+        "name": "778Venomy",
+        "type": "club",
+        "email": "user@user.com",
+    },
+    "orgnizationInfoId": 50,
+    "orgnizationInfo": {
+        "id": "50",
+        "email": "user@user.com",
+        "phone": "1269856278",
+        "website": "gggggggggggggg.com",
+        "fax": "59645964",
+        "address": "yyyyyyy",
+        "ownerId": 50,
+        "owner": {
+            "id": 50,
+            "name": "حميد  المطروشي",
+            "passportId": 137,
+            "passport": {
+                "id": 137,
+                "number": 137,
+                "countryId": 1,
+                "countryName": "",
+                "startDate": "2022-10-13",
+                "endDate": "2022-10-13",
+                "image" :  {
+                    [
+                        "data" : "iVBORw0KGgoAAAANSUhEUgAABEkAAAQtCAYAAACmgBEBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nOy9ebBtaXne935r2NM55w49qKFpuNAtueUKiVyOJTR0QC47ZVXZjqBSKcqyK6DBjiSjFBWpyrhk",
+                        "fileType" : "image/png",
+                        "size" : 685059,
+                        "name" : "03-01.png",
+                    ]
+                },
+            }
+        },
+        "licenceNumber": "2022-11-06",
+        "licenceIssuar": null,
+        "licenceEndDate": "2022-11-06T00:00:00",
+        "licencePrincedomName": null,
+        "licencePrincedomId": null,
+        "licenceImage" : {
+            [
+                "data" : "/9j/4AAQSkZJRgABAgEAlgCWAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAAlgAAAAEAAQCWAAAAAQAB/+FTlWh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSLvu78i ",
+                "fileType" : "image/jpeg",
+                "size" : 80363,
+                "name" : "1-01.jpg",
+            ]
+        },
+        "princedomId": 2,
+        "princedomName": "الفجيرة ",
+        "facebook": "ssssssssss",
+        "twitter": "sssssssss",
+        "instagram": "sssssssss",
+        "discord": "ssssssssss",
+        "youTube": "ssssssssss",
+        "tikTok": "ssssssssss",
+        "twitch": "ssssssssss"
+    },
+    "ClubTypeId": "1",
+    "clubTypeName": "رياضات متعددة"
+}

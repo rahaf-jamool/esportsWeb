@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800&display=swap");
+
+body {
+    font-family: "Tajawal", "sans-serif" !important;
+    overflow-x: hidden;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    background-color: unset;
+}
+.main-header .lists .list-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 30px;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    background-color: #fefefe;
+}
+.main-header .lists .list-top {
+    display: flex;
+    justify-content: flex-end !important;
+    gap: 30%;
+    padding: 20px 0 20px 60px !important;
+    width: 100%;
+    height: 80px;
+    color: gray;
+    background-color: #f9f8f8;
+}
+.main-header .toggle-menu {
+    display: none !important;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    /* left: 30px !important;
+    right: unset; */
+    z-index: 1000;
+}
+.main-header .toggle-menu i {
+    position: absolute;
+    display: block;
+    height: 2px;
+    background: #000;
+    width: 30px;
+    /* left: 30px !important;
+    right: unset; */
+    transition: all 0.3s;
+}
+.main-header .logo img {
+    position: absolute;
+    right: 50px;
+    width: 20%;
+    height: 100%;
+}
+@media screen and (max-width: 1400px) {
+    .main-header {
+        position: unset;
+        height: 80px;
+    }
+    .main-header .toggle-menu {
+        display: block !important;
+    }
+    .main-header .logo img {
+        position: absolute;
+        right: 15px;
+        width: 20%;
+        height: 10%;
+    }
+    .main-header.scrolled {
+        height: unset;
+    }
+    .main-header .menu-icon {
+        display: block;
+    }
+    .main-header .menu-btn:checked + .lists {
+        opacity: 1;
+        -webkit-clip-path: circle(100% at center);
+        clip-path: circle(100% at center);
+    }
+    .main-header .lists .list-top {
+        background-color: unset;
+        gap: 6% !important;
+    }
+    .main-header .lists .list-bottom {
+        position: absolute;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        padding: unset;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background: #fff;
+        clip-path: circle(100% at center);
+        transition: opacity 0.8s 0.5s, -webkit-clip-path 1s 0.5s;
+        transition: opacity 0.8s 0.5s, clip-path 1s 0.5s;
+        transition: opacity 0.8s 0.5s, clip-path 1s 0.5s,
+            -webkit-clip-path 1s 0.5s;
+        -webkit-clip-path: circle(200px at top right);
+        clip-path: circle(200px at top right);
+    }
+    .main-header .lists .list-bottom .right-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-menu {
+        opacity: 1 !important;
+        clip-path: circle(100% at center) !important;
+        z-index: 99999;
+    }
+}
+@media screen and (max-width: 900px) {
+    .main-header .lists .list-top {
+        padding: 20px 0 20px 20px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .main-header .lists .list-top .left-search {
+        display: none;
+    }
+}
+
+.button-more i {
+    transform: rotateY(-180deg);
+}
+
+/* navbar */
+.header .navbar-light .nav-item.lan {
+    margin-right: auto;
+}
+@media (max-width: 1200px) {
+    .header .navbar-light .nav-item.lan {
+      margin-right: 0;
+      margin-left: auto !important;
+      width: max-content;
+      margin-bottom: 10px;
+    }
+}
+
+.header .navbar-light .navbar-nav.second-nav {
+    margin-left: auto;
+}
+
+.header .nav-item .dropdown-menu a {
+    padding-left: 20px;
+    border-right: 7px solid #fff;
+    padding-right: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+@media (max-width: 1400px) {
+    .header .nav-item .dropdown-menu a {
+        border-right: 1px solid red;
+    }
+    .navbar-light .nav-item.lan i {
+        margin-left: 10px;
+    }
+}
+.header .nav-item .dropdown-menu a:hover {
+    padding-left: 10px;
+    padding-right: 20px;
+    border-right: 7px solid #928989;
+    background-color: red;
+    color: #fff;
+}
+.nav-item.dropdown.show{
+    background-color: red;
+    color: #fff !important;
+  }
+/* navbar */
+
+/* start main-slider */
+#main-slider {
+    direction: ltr;
+}
+
+.carousel-item {
+    margin-right: initial;
+}
+.carousel-control-next {
+    right: initial;
+}
+
+/* end main-slider */
+
+/* start news  */
+.news .items .item button {
+    float: right;
+}
+/* end news  */
+#news-items,
+#home-clubs,
+#championship,
+#sponsors,
+#players,
+#album,
+#blogs {
+    direction: ltr;
+}
+.Championship .items .item .item-div{
+    direction: rtl;
+}
+
+footer .nav-item{
+    text-align: right;
+}
+@media (max-width: 575.98px) {
+    footer .nav-item{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.player-articles  .slick-next{
+    left: 10px !important;
+  }
+  .player-articles  .slick-prev{
+    right: 10px !important;
+    z-index: 1;
+  }
+  .player-month .player .video img {
+    width: 110%;
+    height: 110%;
+    margin-top: -15px;
+    margin-left: -10px;
+    border-radius: 0 40px 40px 0;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+.player-month .player
+{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 500px;
+    margin: 35px 0;
+    /* border-radius: 50px; */
+    overflow: hidden;
+    position: relative;
+    color: #000;
+    box-shadow: 5px 3px 20px #5c1e1e;
+}
+@media (max-width: 575.98px) {
+    .player-month .player
+    {
+        height: 350px;
+    }
+}
+.player-month .player .video img {
+    width: 110%;
+    height: 110%;
+    margin-top: -15px;
+    margin-left: -10px;
+    border-radius: 40px 0 0 40px;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+
+.national-teams .slick-prev {
+    right: -25px;
+    left: auto;
+    position: absolute;
+    top: -50px;
+    left: 50px !important;
+}
+.national-teams .slick-next {
+    top: -50px;
+    right: auto;
+    left: 0px !important;
+}
+
+.list-clubs .clubs h1{
+    text-align: center;
+  }

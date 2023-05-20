@@ -1,0 +1,49 @@
+{
+    "id": 13,
+    "name": "Al Fursan333",
+    "clientId": 124,
+    "client": {
+        "id": 124,
+        "name" : "Al Fursan333",
+        "type" : "academy",
+        "email" : "fursan@gmail.com",
+        "userName" : "fursan"
+    },
+    "orgnizationInfoId": 44,
+    "orgnizationInfo": {
+        "id": 44,
+        "email": "fursan@gmail.com",
+        "phone": "1269856278",
+        "website": "gggggggggggggg.com",
+        "fax": "59645964",
+        "address": "yyyyyyy",
+        "ownerId": 44,
+        "owner": {
+            "id": 44,
+            "name": "nasser ahmad",
+            "passportId": 107,
+            "passport": {
+                "id": 107,
+                "number": 74,
+                "countryId": 1,
+                "countryName": "",
+                "StartDate": "2022-10-28",
+                "EndDate": "2022-10-29"
+            }
+        },
+        "licenceNumber": null,
+        "licenceIssuar": null,
+        "licenceEndDate": "2022-11-06T00:00:00",
+        "licencePrincedomName": null,
+        "licencePrincedomId": null,
+        "princedomId": "1",
+        "princedomName": "الفجيرة ",
+        "facebook": "ssssssssss",
+        "twitter": "sssssssss",
+        "instagram": "sssssssss",
+        "discord": "ssssssssss",
+        "youTube": "ssssssssss",
+        "tikTok": "ssssssssss",
+        "twitch": "ssssssssss"
+    }
+}

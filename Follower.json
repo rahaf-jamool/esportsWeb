@@ -1,0 +1,13 @@
+{
+  "id": 14,
+  "name": "follower33",
+  "clientId": 121,
+  "client": {
+    "id": 121,
+    "type" : "WebSite-Follower",
+    "name" : "follower33",
+    "email" : "follower2@gmail.com",
+    "userName" : "follower2",
+  },
+  "email": "follower2@gmail.com"
+}

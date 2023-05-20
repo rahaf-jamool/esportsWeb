@@ -1,0 +1,40 @@
+
+
+.banner-area {
+    background: url(../../assets/img/4-01.jpg) no-repeat 100% 100%;
+    background-size: cover;
+    position: relative;
+    /* padding-top: 200px; */
+    padding: 100px 0 30px;
+    text-align: center;
+    background-position: 0 -100px;
+    background-attachment: fixed;
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px 0;
+    padding: 20px 0;
+}
+.video i{
+        left: 30% !important;
+}
+.li-blog-single-item{
+    width: 500px;
+}
+.gallery-list {
+    text-align: center;
+    color:red;
+}
+.card.item {
+    width: 400px;
+    height: 300px;
+}
+.card.item img{
+    width: 400px;
+    height: 300px;
+}

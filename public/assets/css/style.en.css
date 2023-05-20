@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    /* src: url('../fonts/Montalban.eot');
+    src: url('../fonts/Montalban.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montalban.woff2') format('woff2'),
+        url('../fonts/Montalban.woff') format('woff'),
+        url('../fonts/Montalban.ttf') format('truetype'),
+        url('../fonts/Montalban.svg#Montalban') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; */
+  }
+ 
+  /*
+
+ font-family: 'Ubuntu', sans-serif;: 'Lato', sans-serif;
+  */
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* navbar */
+  .header{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400
+  }
+  .header .navbar-light .navbar-nav .nav-link{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .header .nav-item a{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .header .nav-item .dropdown-menu a{
+    padding-right: 20px;
+    border-left: 7px solid #fff;
+    padding-left: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  @media (max-width: 1400px){
+    .header .nav-item .dropdown-menu a{
+      border-left: 1px solid red;
+    }
+    .navbar-light .nav-item.lan i{
+      margin-right: 10px;
+    }
+  }
+  .header .nav-item .dropdown-menu a:hover{
+    padding-right: 10px;
+    padding-left: 20px;
+    border-left: 7px solid #928989;
+    background-color: red;
+    color: #fff;
+  }
+  .nav-item.dropdown.show{
+    background-color: red;
+    color: #fff !important;
+  }
+  .header .navbar-light .nav-item.lan{
+    margin-left: auto;
+  }
+
+  .header .navbar-light .navbar-nav.second-nav{
+    margin-right: auto;
+  }
+  /* navbar */
+
+  /* start news  */
+   .title img{
+    margin-right: 10px;
+  }
+  .news .items .item button{
+    float: left;
+  }
+  /* end news  */
+  /*start clubs */
+/* .button-more i{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+} */
+/*end clubs */
+
+    /* start players */
+
+    .players .item .top p{
+      text-align: left;
+    }
+
+    .players .item .desc{
+      text-align: center;
+    }
+
+    /* end players */
+    /* start about-union*/
+    .about-union .image .img1{
+      width: 80%;
+      height: 100%;
+      transform: rotateY(180deg);
+  }
+    /* start about-union*/
+    footer .nav-item{
+      text-align: left;
+  }
+
+  .national-teams .slick-prev {
+    right: -25px;
+    left: auto;
+    position: absolute;
+    top: -50px;
+    right: 50px !important;
+}
+.national-teams .slick-next {
+    top: -50px;
+    right: auto;
+    right: 0px !important;
+}
+
+  .list-clubs .clubs h1{
+    text-align: left;
+  }

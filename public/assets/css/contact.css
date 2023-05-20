@@ -1,0 +1,40 @@
+#map{
+  height: 450px;
+}
+
+.textTitle{
+  color: #000!important;
+  font-weight: normal;
+  font-size: 30px!important;
+  margin: 0px 30px 20px 0px!important;
+}
+@media only screen and (max-width: 1300px) {
+  #map,
+  .page-container{
+      padding:30px 30px;
+  }
+}
+@media only screen and (min-width: 1301px) {
+  #map
+  {
+    padding-top: 160px;
+} 
+  .page-container{
+      padding:30px 50px;
+  }
+  
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary.disabled, 
+.btn-primary:disabled{
+      background-color: #f15050;
+      border: #f15050;
+      padding: 10px 100px;
+      border-radius: unset;
+}
+
+input{
+  margin: 0px 0px 10px;
+}
+

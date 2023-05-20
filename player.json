@@ -1,0 +1,73 @@
+{
+    "id": 34,
+    "name": "player2025 player2025",
+    "clientId": "85",
+    "client": {
+        "id": "85",
+        "type": "player",
+        "name": "player2025 player2025",
+        "email": "player2025@gmail.com",
+        "userName": "player2025"
+    },
+    "personInfoId": "48",
+    "personInfo": {
+        "id": "48",
+        "birthDate": "2022-10-13",
+        "gender": "m",
+        "socialStatus": "single",
+        "uaeResidency": true,
+        "uaeIdNumber": "xgvghvhi-hjvbhjbj0n",
+        "uaeIdEndDate": "2022-10-22",
+        "membershipNumber": "234243",
+        "membershipEndDate": "2022-10-08T00:00:00",
+        "educationLevelName": null,
+        "educationLevelId": "1",
+        "email": "player2025@gmail.com",
+        "phone": "123456785485",
+        "address": "Club4Player",
+        "idCardNumber": 1234568988,
+        "nationalityId": "13",
+        "nationalityName": "KSA",
+        "passportId": "74",
+        "passport": {
+            "id": "74",
+            "number": 74,
+            "countryId": 1,
+            "countryName": "",
+            "startDate": null,
+            "endDate": null
+        },
+        "princedomId": "4",
+        "princedomName": "دبي",
+        "facebook": "sssssssss",
+        "twitter": "sssssssss",
+        "instagram": "sssssssss",
+        "youtube": "sssssssss",
+        "discord": "sssssssss",
+        "tikTok": "sssssssss",
+        "twitch": "sssssssss"
+    },
+    "clubId": null,
+    "clubName": "",
+    "academyId": null,
+    "academyName": "",
+    "careerStartDate": "2022-10-07T00:00:00",
+    "nationalTeamId": null,
+    "playerPlatforms": [
+        {
+            "playerId": 34,
+            "playerName": "player2025 player2025",
+            "platformId": "7",
+            "platformName": "MOBILE"
+        }
+    ],
+    "playerGames": [
+        {
+            "playerId": 34,
+            "playerName": "player2025 player2025",
+            "gameId": "4",
+            "gameName": "League Of legends",
+            "team": false
+        }
+    ]
+}

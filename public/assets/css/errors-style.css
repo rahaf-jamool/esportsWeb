@@ -1,0 +1,62 @@
+
+.error-box {
+    height: 100%;
+    position: fixed;
+    background: url(../img/error-bg.jpg) center center no-repeat #fff !important;
+    width: 100%
+}
+
+.error-box .error-body h3 {
+    font-size: 21px;
+}
+
+.m-t-30 {
+    margin-top: 30px !important;
+}
+
+.m-b-30 {
+    margin-bottom: 30px !important;
+}
+
+.m-b-40 {
+    margin-bottom: 40px !important;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn-rounded {
+    border-radius: 60px;
+}
+
+.error-box .footer {
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #58666e;
+    left: 0;
+    padding: 20px 30px;
+    position: absolute;
+    right: 0;
+    background: #fff;
+}
+
+.error-body {
+    padding-top: 5%
+}
+
+.error-body h1 {
+    font-size: 210px;
+    font-weight: 900;
+    line-height: 210px
+}

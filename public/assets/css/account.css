@@ -1,0 +1,306 @@
+.order-button-payment .info-edit {
+	display: block;
+	background: #434343 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px 0 0;
+	padding: 0;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 100%;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+.order-button-payment .info-edit:hover {
+	background: #28a745 none repeat scroll 0 0;
+}
+.table-orders{
+    display: flex;
+    justify-content: space-around;
+}
+/* .services{
+    display: flex;
+    justify-content: space-around;
+	flex-wrap: wrap;
+}
+.services .service{
+	padding: 10px 15px;
+    background-color: red;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+} */
+
+.services .service{
+	padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+	color: #000;
+}
+.services .service:hover{
+	color: red;
+}
+
+.modal .content{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.modal .content p{
+    margin: 0px;
+}
+.show-service,
+.show-organization,
+.show-article{
+	cursor: pointer;
+}
+
+/*
+event subscribed details
+---------------------------------------
+*/
+.player-event-details.view-event {
+    width: 100%;
+    padding-top: 60px;
+    background-color: #ebebeb;
+}
+.player-event-details .content-event {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: #ebebeb;
+}
+.player-event-details .tabs {
+    width: 70%;
+    height: auto;
+}
+.player-event-details .orginize {
+    width: 20%;
+}
+.player-event-details .tabs input[type="radio"] {
+    display: none;
+}
+.player-event-details .tabs label {
+    transition: background 0.4s ease-in-out, height 0.2s linear;
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(212, 17, 17, 0.9220063025210083) 35%;
+    width: 17rem;
+    height: 3em;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #fcfcfc;
+    text-align: center;
+    line-height: 3em;
+}
+.player-event-details .tabs label:last-of-type {
+    border-bottom: none;
+}
+.player-event-details .tabs label:hover {
+    background: rgba(185, 8, 8, 1) 100%;
+    color: #ffffff;
+}
+@media screen and (max-width: 1600px) {
+    .player-event-details .tabs label {
+        width: 15rem;
+    }
+    .player-event-details .tabs {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .player-event-details .tabs label {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .player-event-details .tabs label {
+        width: 100%;
+        display: block;
+        border-bottom: 2px solid #c7c6c4;
+        border-radius: 0;
+    }
+    .player-event-details .content-event {
+        width: 100%;
+        display: block;
+    }
+    .player-event-details .tabs {
+        width: 90%;
+        margin: auto;
+    }
+    .player-event-details .orginize {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .player-event-details .tabs {
+        margin: auto;
+    }
+}
+
+.player-event-details #tab1:checked + label,
+.player-event-details #tab2:checked + label,
+.player-event-details #tab3:checked + label,
+.player-event-details #tab4:checked + label {
+    background: rgba(185, 8, 8, 1) 100%;
+    color: #ffffff;
+}
+
+.player-event-details .tab-content {
+    position: absolute;
+    top: -9999px;
+    padding: 10px;
+}
+
+.player-event-details .tab-content-wrapper {
+    /* background: #fcfcfc; */
+    border-top: rgba(212, 17, 17, 0.9220063025210083) 5px solid;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+@media screen and (max-width: 600px) {
+    .tab-content-wrapper,
+    .tab1-content-wrapper {
+        border: none;
+        border-radius: 0;
+    }
+}
+
+.player-event-details #tab1:checked ~ .tab-content-wrapper #tab-content-1,
+.player-event-details #tab2:checked ~ .tab-content-wrapper #tab-content-2,
+.player-event-details #tab3:checked ~ .tab-content-wrapper #tab-content-3,
+.player-event-details #tab4:checked ~ .tab-content-wrapper #tab-content-4 {
+    position: relative;
+    top: 0px;
+}
+
+.player-event-details p.event-msg {
+    color: red;
+}
+.player-event-details p.desc-event {
+    color: gray;
+    font-size: 14px;
+}
+.player-event-details small {
+    font-size: 14px;
+    color: gray;
+}
+.player-event-details h4.pcice {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    background: #dad5d5;
+    padding: 20px;
+}
+.hide-show {
+    width: 94%;
+    position: relative;
+    z-index: 5;
+    top: -31px;
+    display: none;
+}
+.hide-show span {
+    font-size: 1em;
+    float: left;
+    cursor: pointer;
+}
+.hide-show1 {
+    width: 94%;
+    position: relative;
+    z-index: 5;
+    top: -31px;
+    display: none;
+}
+.hide-show1 span {
+    font-size: 1em;
+    float: left;
+    cursor: pointer;
+}
+span.show {
+    color: #000 !important;
+}
+
+
+
+
+/*
+    Membership Card Tab
+    -------------------------------------
+*/
+.responsive {
+    width: 100%;
+    height: 100%;
+}
+
+#origin_player_membership_card .cart-content,
+.profile-membership-card .cart-content {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    height: 45%;
+    width: 100%;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+    .profile-membership-card .cart-content {
+        bottom: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .profile-membership-card .cart-content {
+        bottom: 40px;
+    }
+    .profile-membership-card .cart-content .cart-content-info li {
+        font-size: 15px;
+    }
+}
+@media (min-width: 650px) and (max-width: 767.98px) {
+    .profile-membership-card .cart-content .cart-content-info li {
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .profile-membership-card .cart-content {
+        bottom: 50px;
+    }
+}
+@media (min-width: 500px) and (max-width: 575.98px) {
+    .profile-membership-card .cart-content {
+        bottom: 12px;
+    }
+    .profile-membership-card .cart-content .cart-content-info li {
+        font-size: 14px;
+    }
+}
+@media (min-width: 400px) and (max-width: 499.98px) {
+    .profile-membership-card .cart-content {
+        bottom: 12px;
+    }
+    .profile-membership-card .cart-content .cart-content-info li {
+        font-size: 12px;
+    }
+}
+@media (min-width: 300px) and (max-width: 399.98px) {
+    .profile-membership-card .cart-content {
+        bottom: 12px;
+    }
+    .profile-membership-card .cart-content .cart-content-info li {
+        font-size: 9px;
+    }
+}

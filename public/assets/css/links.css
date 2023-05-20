@@ -1,0 +1,94 @@
+/* start about-union */
+.about-union{
+    display: flex;
+    background-color: #eee;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    background-image: url(../img/about-union-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about-union .image{
+    padding: 0px;
+    position: relative;
+    max-height: 450px;
+}
+.about-union .image .img1{
+    width: 80%;
+    height: 100%;
+}
+.about-union .image .img2{
+    bottom: 0px;
+    position: absolute;
+    right: 100px;
+    height: calc(100% - 80px);
+    width: calc(100% - 100px);
+    border: 5px solid red;
+}
+.about-union .desc{
+    padding-top: 80px;
+}
+.about-union .desc h1{
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 30px;
+}
+
+/* end about-union */
+/* start current-board */
+.current-board{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #eee;
+    padding: 50px 0px;
+}
+.current-board .back{
+    position: absolute;
+    width: 15%;
+    top: 5%;
+    left: 0;
+
+}
+.current-board .person{
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    height: 450px
+}
+.current-board .person .image{
+    width: 250px;
+    overflow: hidden;
+    height: 250px;
+    margin: auto;
+    background-image: url(../img/border.png);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.current-board .person .image img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+.current-board .person h5{
+    color: red;
+    margin: 30px 0px;
+}
+.current-board .person p{
+    color: #5f5f5f;
+    font-size: 16px;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-union .chart{
+    width: 100%;
+}
+/* end current-board*/

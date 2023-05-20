@@ -1,0 +1,172 @@
+.view-player .image-text {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+.view-player .card {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #f8f8f8;
+    background: #f8f8f8;
+    box-shadow: 1px -1px 9px 1px #542222;
+    padding: 30px 20px;
+    margin: 50px auto;
+}
+.view-player .info-player {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+.view-player .information {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    margin: auto;
+}
+.view-player img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.view-player .image {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+}
+.view-player h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+}
+@media (max-width: 800px) {
+    .view-player .info-player {
+        width: 100%;
+    }
+}
+.list-clubs .clubs {
+  padding: 50px 20px;
+}
+.list-clubs .clubs h1{
+    text-align: right;
+    color: red;
+    padding: 0 80px;
+}
+
+.list-clubs .clubs .clup-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 40px 0;
+  cursor: pointer;
+
+}
+.list-clubs .clubs .clup-items .item:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 1400px){
+  .list-clubs .clubs .clup-items {
+    flex-wrap: wrap;
+  }
+}
+.list-clubs .clubs .clup-items h1 {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+}
+.list-clubs .clubs .clup-items .item {
+  margin: 10px;
+  width: 250px;
+  background: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: all 1.5s ease-out;
+}
+.list-clubs .clubs .clup-items .desc-clup {
+  margin: 10px;
+  color: #000;
+}
+.list-clubs .clubs .clup-items .item .image {
+    overflow: hidden;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.list-clubs .clubs .clup-items .item img {
+    height: 100%;
+    transition: .5s ease-in-out;
+    width: 100%;
+    border-radius: 50%;
+}
+.list-clubs .clubs .clup-items .item .link{
+  bottom: 30px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+}
+
+
+.list-clubs .clubs .clup-items .item .button-more {
+  width: 60%;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid rgba(177, 177, 177, 0.0784313725);
+  background-color: rgba(177, 177, 177, 0.0784313725);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.list-clubs .clubs .clup-items .item .button-more:hover {
+  background-color: #000;
+  animation: pulse 2s infinite;
+  transition: .3s;
+  -webkit-animation: pulse 2s infinite;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+.list-clubs .clubs .clup-items .item .a:hover .button-more button {
+  color: #fff;
+}
+.button-more i{
+  color: red;
+
+}
+.list-clubs .clubs .clup-items .item .button-more:hover i{
+  color: #fff;
+}
+.list-clubs .clubs .clup-items .item .button-more:hover button{
+  color: #fff;
+}
+  @keyframes pulse {
+      0% {
+      transform: scale(1);
+      }
+      70% {
+      transform: scale(.9);
+      }
+      100% {
+      transform: scale(1);
+      }
+  }
+.list-clubs .clubs .clup-items .item .button-more::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.list-clubs .clubs .clup-items .item .button-more img {
+  width: 50px;
+  height: 50px;
+}
+.list-clubs .clubs .clup-items .item .button-more button{
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+  color: red;
+}
